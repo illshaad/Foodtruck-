@@ -1,0 +1,9 @@
+extends layout
+block content
+    form(method='post' action='foodtruck/add')
+    label Titre
+    input.form-control(name='title' type='text' placholder='ajoute ton food ')
+    label Description
+    input.form-control(name='description' type='text' placeholder='ajoute ta description ')
+    label Price
+     input.form-control(name='price' type='number' placeholder='ajoute  un prix ')
